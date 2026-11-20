@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GTA 6 Trophy Guide &amp; Tracker — all 55 trophies</title>
+<meta name="description" content="A fully offline checklist and roadmap for all 55 official GTA 6 trophies on PlayStation 5. Tick them off, track your progress, and follow the platinum route.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="masthead">
+  <div class="masthead-inner">
+    <p class="kicker">Leonida &middot; PlayStation 5 &middot; 55 official trophies</p>
+    <h1>GTA 6 Trophy Guide <span>&amp; Tracker</span></h1>
+    <p class="standfirst">Every official trophy, in order, with an honest guide for each one. No account, no network — your progress lives in this browser only.</p>
+    <div class="progress-wrap" aria-label="Overall progress">
+      <div class="progress-numbers">
+        <span id="progress-count">0 of 55 earned</span>
+        <span id="progress-percent">0%</span>
+      </div>
+      <div class="progress-bar"><div class="progress-fill" id="progress-fill" style="width:0%"></div></div>
+      <p class="platinum-line" id="platinum-line">Platinum: 0 of the other 54 trophies earned</p>
+    </div>
+    <nav class="tabs" aria-label="Views">
+      <a href="#/" id="tab-checklist" class="tab">Checklist</a>
+      <a href="#/roadmap" id="tab-roadmap" class="tab">Roadmap</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section id="view-checklist" class="view">
+    <div class="controls">
+      <label class="search-label">Search
+        <input id="search" type="search" placeholder="Trophy name or description…" autocomplete="off">
+      </label>
+      <label>Grade
+        <select id="grade">
+          <option value="all">All grades</option>
+          <option value="platinum">Platinum</option>
+          <option value="gold">Gold</option>
+          <option value="silver">Silver</option>
+          <option value="gold-silver">Gold &amp; silver</option>
+          <option value="bronze">Bronze</option>
+        </select>
+      </label>
+      <label>Type
+        <select id="kind">
+          <option value="all">All types</option>
+          <option value="story">Story</option>
+          <option value="missable">Missable</option>
+          <option value="collectible">Collectibles</option>
+          <option value="activity">Activities</option>
+          <option value="general">General</option>
+        </select>
+      </label>
+      <label class="check-label"><input id="hide-earned" type="checkbox"> Hide earned</label>
+      <label class="check-label spoiler"><input id="spoiler" type="checkbox"> Hide story spoilers</label>
+    </div>
+    <div class="toolbar">
+      <p id="result-count" class="result-count"></p>
+      <div class="toolbar-buttons">
+        <button id="export" type="button">Export progress</button>
+        <label class="import-label">Import progress <input id="import" type="file" accept="application/json,.json"></label>
+        <button id="reset" type="button" class="danger">Reset progress</button>
+      </div>
+    </div>
+    <ul id="trophy-list" class="trophy-list"></ul>
+    <p id="empty-state" class="empty-state" hidden>No trophies match these filters. Try clearing the search or a filter.</p>
+  </section>
+
+  <section id="view-roadmap" class="view" hidden>
+    <h2>The road to platinum</h2>
+    <p class="roadmap-intro">Play the story in order, clear the missable trophies as you reach them, then work the side content, the collectibles and the cleanup. The platinum unlocks when the other 54 are done.</p>
+    <ol class="roadmap">
+      <li>
+        <h3>1 &middot; Story first — Chapters 1&ndash;4 and the final mission</h3>
+        <p>Play the main missions in order: <strong>Gone Fishing</strong>, then Chapters 1, 2, 3 and 4, then the final mission. The named missions — Breakfast Run, The Cartel Heist, Child&rsquo;s Play, Headliners, VCIA Takedown and Operation Savage Glory — each carry their own trophy, so complete every mission the story gives you.</p>
+        <p class="missable-note">Missable warning: every story trophy can only be earned while playing its chapter or mission. The official descriptions give no replay information, so do each one when you reach it.</p>
+      </li>
+      <li>
+        <h3>2 &middot; Strangers &amp; side missions</h3>
+        <p>Finish the stranger strands across Leonida — eight full strands for the silver, plus the final mission for each of Andy, Kenton, Billy, Randy and Tyrone. Take the hunting job for Bret when it comes up, and beat Cal in a fishing challenge.</p>
+      </li>
+      <li>
+        <h3>3 &middot; Activities &amp; challenges</h3>
+        <p>Try every activity type once, then dig into the grinds: 250 stunts, 50 challenges, 20 different race wins, gold medals in all 42 Shooting Range challenges, a Top Fun drone race win at all 14 locations, an arcade game, and meditation at all 18 spots.</p>
+      </li>
+      <li>
+        <h3>4 &middot; Collectibles &amp; the map</h3>
+        <p>Explore all 52 areas of Leonida, complete 3 collectible card sets, WAiNK It at 100 locations, discover 100 vehicles, register 10 of them in the Scooter Bros app, and buy all 8 garage properties.</p>
+      </li>
+      <li>
+        <h3>5 &middot; Cleanup — heists, money &amp; the odd ones</h3>
+        <p>Rob 5 bank vaults, an armored truck and one illegal operation per gang; lose a 4-star wanted level with your partner; rob 3 shops back-to-back without losing the heat; take down 5 enemies in one Combat Focus; launder $250,000 of Marked Bills; spend $100,000 in shops; and pick up the stragglers — the cocktail on Ocean Beach, the showroom smash, the bowling alley, the melee drive-by and the jewelry store job.</p>
+      </li>
+      <li>
+        <h3>6 &middot; Platinum</h3>
+        <p>When the tracker shows 54 of 55, the platinum — <strong>Vice Got a Price!</strong> — unlocks on its own. Check the 100% completion gold too: it overlaps with almost everything above.</p>
+      </li>
+    </ol>
+    <p class="roadmap-note">Missable trophies are marked <span class="chip chip-missable">missable</span> in the checklist. Everything else can be finished after the story, in any order.</p>
+  </section>
+
+  <section id="view-detail" class="view" hidden>
+    <p class="back-link"><a href="#/">&larr; Back to the checklist</a></p>
+    <article id="detail-card" class="detail-card"></article>
+  </section>
+</main>
+
+<footer>
+  <p>Names, descriptions and grades are the official trophy list as frozen in the kit (Exophase / PSNProfiles). Guides are our own words, derived only from those descriptions, and have not been checked in the game. Where a description gives no location or exact trigger, the guide says so instead of inventing one.</p>
+  <p>Progress is stored in this browser&rsquo;s local storage only. Nothing is uploaded anywhere.</p>
+</footer>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>
